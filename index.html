@@ -1,43 +1,220 @@
-PMEPLUS est une entreprise française spécialisée dans la conception de solutions numériques.
-Nous développons des applications mobiles, des outils métiers et des solutions d’automatisation logicielle pour les particuliers et les professionnels.
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PMEPLUS</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
-Applications et produits
-Parmi nos applications et projets :
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #0f1117;
+      color: #e0e0e0;
+      line-height: 1.7;
+    }
 
-Cortizol Tracker
-BaldApp
-World Creat
-Doggy+
-VisioAI
-et d’autres solutions en cours de développement.
-Services et expertises
-PMEPLUS intervient notamment sur :
+    header {
+      background: linear-gradient(135deg, #1a1d2e, #0f1117);
+      border-bottom: 2px solid #2a2f45;
+      padding: 40px 20px;
+      text-align: center;
+    }
 
-développement d’applications mobiles (iOS / Android),
-développement de logiciels sur mesure,
-automatisation de processus logiciels,
-intégration de solutions IA et workflows productifs,
-accompagnement digital et conseil technique.
-Contact
-Pour toute question, collaboration ou demande de projet :
-pmeplus51@gmail.com
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: 3px;
+    }
 
-Mentions légales
-Éditeur du site
-PMEPLUS
-SIREN : 988 874 673
-Email : pmeplus51@gmail.com
+    header p {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #8892b0;
+    }
 
-Directeur de la publication
-PMEPLUS
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
 
-Hébergement
-Ce site est publié via la plateforme Notion (Notion Labs, Inc.).
+    section {
+      margin-bottom: 50px;
+    }
 
-Politique de confidentialité (version courte)
-PMEPLUS peut collecter certaines données nécessaires au bon fonctionnement de ses applications et services (ex. données de compte, données techniques, données liées aux fonctionnalités des apps).
-Ces données sont utilisées uniquement pour fournir et améliorer les services proposés.
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #64ffda;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #2a2f45;
+    }
 
-PMEPLUS s’engage à ne pas vendre les données personnelles à des tiers.
-Les utilisateurs peuvent demander des informations, rectifications ou suppressions de leurs données en contactant :
-pmeplus51@gmail.com
+    p {
+      color: #ccd6f6;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 8px 0 8px 20px;
+      position: relative;
+      color: #ccd6f6;
+      border-bottom: 1px solid #1e2235;
+    }
+
+    ul li::before {
+      content: "▸";
+      position: absolute;
+      left: 0;
+      color: #64ffda;
+    }
+
+    .app-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .app-card {
+      background: #1a1d2e;
+      border: 1px solid #2a2f45;
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-weight: 600;
+      color: #e0e0e0;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    .contact-box {
+      background: #1a1d2e;
+      border: 1px solid #2a2f45;
+      border-radius: 10px;
+      padding: 24px;
+    }
+
+    .contact-box a {
+      color: #64ffda;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+
+    .mentions {
+      background: #12151f;
+      border-top: 1px solid #2a2f45;
+      padding: 40px 20px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .mentions h2 {
+      font-size: 1.1rem;
+    }
+
+    .mentions p, .mentions li {
+      font-size: 0.9rem;
+      color: #8892b0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.8rem;
+      color: #4a5568;
+      border-top: 1px solid #1e2235;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PMEPLUS</h1>
+    <p>Entreprise française spécialisée dans la conception de solutions numériques</p>
+  </header>
+
+  <main>
+
+    <section>
+      <p>Nous développons des applications mobiles, des outils métiers et des solutions d'automatisation logicielle pour les particuliers et les professionnels.</p>
+    </section>
+
+    <section>
+      <h2>Applications &amp; Produits</h2>
+      <p>Parmi nos applications et projets :</p>
+      <div class="app-grid">
+        <div class="app-card">Cortizol Tracker</div>
+        <div class="app-card">BaldApp</div>
+        <div class="app-card">World Creat</div>
+        <div class="app-card">Doggy+</div>
+        <div class="app-card">VisioAI</div>
+        <div class="app-card" style="color:#8892b0; font-weight:400; font-size:0.85rem;">+ d'autres en cours…</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Services &amp; Expertises</h2>
+      <ul>
+        <li>Développement d'applications mobiles (iOS / Android)</li>
+        <li>Développement de logiciels sur mesure</li>
+        <li>Automatisation de processus logiciels</li>
+        <li>Intégration de solutions IA et workflows productifs</li>
+        <li>Accompagnement digital et conseil technique</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="contact-box">
+        <p>Pour toute question, collaboration ou demande de projet :</p>
+        <p style="margin-top:10px;">📧 <a href="mailto:pmeplus51@gmail.com">pmeplus51@gmail.com</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="mentions">
+
+    <section style="margin-bottom:30px;">
+      <h2>Mentions légales</h2>
+      <ul>
+        <li><strong>Éditeur :</strong> PMEPLUS</li>
+        <li><strong>SIREN :</strong> 988 874 673</li>
+        <li><strong>Email :</strong> pmeplus51@gmail.com</li>
+        <li><strong>Directeur de la publication :</strong> PMEPLUS</li>
+        <li><strong>Hébergement :</strong> GitHub Pages — github.com</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Politique de confidentialité</h2>
+      <ul>
+        <li>PMEPLUS peut collecter certaines données nécessaires au bon fonctionnement de ses applications et services (données de compte, données techniques, données liées aux fonctionnalités des apps).</li>
+        <li>Ces données sont utilisées uniquement pour fournir et améliorer les services proposés.</li>
+        <li>PMEPLUS s'engage à ne pas vendre les données personnelles à des tiers.</li>
+        <li>Pour toute demande d'information, rectification ou suppression : <a href="mailto:pmeplus51@gmail.com" style="color:#64ffda;">pmeplus51@gmail.com</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2026 PMEPLUS — Tous droits réservés
+  </footer>
+
+</body>
+</html>
